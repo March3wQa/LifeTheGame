@@ -218,3 +218,1304 @@ LogInit: Object subsystem initialized
 [2017.10.12-18.54.34:556][262]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/NewMap.umap
 [2017.10.12-18.54.34:571][262]LogFileHelpers: Saving map 'NewMap' took 0.787
 [2017.10.12-18.54.34:599][265]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.12-18.57.24:184][548]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.10.12-18.57.36:838][ 35]Cmd: TRANSACTION UNDO
+[2017.10.12-18.57.36:838][ 35]LogEditorTransaction: Undo Scale Actors
+[2017.10.12-18.57.36:884][ 35]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.12-18.58.20:123][432]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/piotr.ABU-PC.000/Desktop/human/human.fbx)
+[2017.10.12-18.58.20:351][432]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.10.12-18.58.20:351][432]LogFbx: ItemName: NodeAttribute, ItemCount : 70
+[2017.10.12-18.58.20:351][432]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.10.12-18.58.20:351][432]LogFbx: ItemName: Model, ItemCount : 71
+[2017.10.12-18.58.20:351][432]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.10.12-18.58.20:351][432]LogFbx: ItemName: Deformer, ItemCount : 70
+[2017.10.12-18.58.20:351][432]LogFbx: ItemName: Material, ItemCount : 7
+[2017.10.12-18.58.20:384][432]LogFbx: Loading FBX Scene from C:/Users/piotr.ABU-PC.000/Desktop/human/human.fbx
+[2017.10.12-18.58.20:685][432]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.12-18.58.32:264][432]LogFbx: Loading FBX Scene from C:/Users/piotr.ABU-PC.000/Desktop/human/human.fbx
+[2017.10.12-18.58.32:550][432]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.12-18.58.32:557][432]LogFbx: =================================================
+[2017.10.12-18.58.32:557][432]LogFbx: Dumping Node START [human_male_base01] 
+[2017.10.12-18.58.32:557][432]LogFbx: 	Total Deformer Count 1753709872.
+[2017.10.12-18.58.32:557][432]LogFbx: 		[Node 1] human_skeleton (Type Skin).
+[2017.10.12-18.58.32:557][432]LogFbx: =================================================
+[2017.10.12-18.58.32:557][432]LogFbx: 	Attribute (human_male.000) Type (4).
+[2017.10.12-18.58.32:557][432]LogFbx: 		[Node Attribute Child 1] human_male_base01 (Type Mesh).
+[2017.10.12-18.58.32:557][432]LogFbx: Dumping Node END [human_male_base01]
+[2017.10.12-18.58.32:559][432]LogFbx: =================================================
+[2017.10.12-18.58.32:559][432]LogFbx: Dumping Node START [human_male_base01] 
+[2017.10.12-18.58.32:559][432]LogFbx: 	Total Deformer Count 1753709872.
+[2017.10.12-18.58.32:559][432]LogFbx: 		[Node 1] human_skeleton (Type Skin).
+[2017.10.12-18.58.32:559][432]LogFbx: =================================================
+[2017.10.12-18.58.32:559][432]LogFbx: 	Attribute (human_male.000) Type (4).
+[2017.10.12-18.58.32:559][432]LogFbx: 		[Node Attribute Child 1] human_male_base01 (Type Mesh).
+[2017.10.12-18.58.32:559][432]LogFbx: Dumping Node END [human_male_base01]
+[2017.10.12-18.58.32:561][432]LogFbx:Warning: Not valid bind pose for Pose (human_male.000) - Node human_male_base01 : The relative matrices do not match
+[2017.10.12-18.58.32:561][432]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.10.12-18.58.32:562][432]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - human_male_base01
+[2017.10.12-18.58.32:562][432]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.10.12-18.58.32:593][432]LogLinker: Can't find file '/Game/Resources/Characters/Human/Men/MBlab_pupil_003'
+[2017.10.12-18.58.32:593][432]LogLinker: Can't find file '/Game/Resources/Characters/Human/Men/MBlab_pupil_003'
+[2017.10.12-18.58.32:613][432]LogMaterial:Warning: Material /Game/Resources/Characters/Human/Men/MBlab_pupil_003.MBlab_pupil_003 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.10.12-18.58.32:615][432]LogMaterial: Missing cached shader map for material MBlab_pupil_003, compiling. 
+[2017.10.12-18.58.32:673][432]LogMaterial: Missing cached shader map for material MBlab_pupil_003, compiling. 
+[2017.10.12-18.58.32:703][432]LogLinker: Can't find file '/Game/Resources/Characters/Human/Men/MBlab_fur_003'
+[2017.10.12-18.58.32:703][432]LogLinker: Can't find file '/Game/Resources/Characters/Human/Men/MBlab_fur_003'
+[2017.10.12-18.58.32:704][432]LogMaterial:Warning: Material /Game/Resources/Characters/Human/Men/MBlab_fur_003.MBlab_fur_003 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.10.12-18.58.32:706][432]LogMaterial: Missing cached shader map for material MBlab_fur_003, compiling. 
+[2017.10.12-18.58.32:742][432]LogMaterial: Missing cached shader map for material MBlab_fur_003, compiling. 
+[2017.10.12-18.58.32:776][432]LogLinker: Can't find file '/Game/Resources/Characters/Human/Men/MBlab_human_teeth_003'
+[2017.10.12-18.58.32:776][432]LogLinker: Can't find file '/Game/Resources/Characters/Human/Men/MBlab_human_teeth_003'
+[2017.10.12-18.58.32:776][432]LogMaterial:Warning: Material /Game/Resources/Characters/Human/Men/MBlab_human_teeth_003.MBlab_human_teeth_003 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.10.12-18.58.32:778][432]LogMaterial: Missing cached shader map for material MBlab_human_teeth_003, compiling. 
+[2017.10.12-18.58.32:825][432]LogMaterial: Missing cached shader map for material MBlab_human_teeth_003, compiling. 
+[2017.10.12-18.58.32:871][432]LogLinker: Can't find file '/Game/Resources/Characters/Human/Men/MBlab_human_skin_003'
+[2017.10.12-18.58.32:872][432]LogLinker: Can't find file '/Game/Resources/Characters/Human/Men/MBlab_human_skin_003'
+[2017.10.12-18.58.32:872][432]LogMaterial:Warning: Material /Game/Resources/Characters/Human/Men/MBlab_human_skin_003.MBlab_human_skin_003 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.10.12-18.58.32:875][432]LogMaterial: Missing cached shader map for material MBlab_human_skin_003, compiling. 
+[2017.10.12-18.58.32:915][432]LogMaterial: Missing cached shader map for material MBlab_human_skin_003, compiling. 
+[2017.10.12-18.58.32:946][432]LogLinker: Can't find file '/Game/Resources/Characters/Human/Men/MBlab_cornea_003'
+[2017.10.12-18.58.32:946][432]LogLinker: Can't find file '/Game/Resources/Characters/Human/Men/MBlab_cornea_003'
+[2017.10.12-18.58.32:946][432]LogMaterial:Warning: Material /Game/Resources/Characters/Human/Men/MBlab_cornea_003.MBlab_cornea_003 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.10.12-18.58.32:948][432]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-18.58.32:989][432]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-18.58.33:027][432]LogLinker: Can't find file '/Game/Resources/Characters/Human/Men/MBlab_human_eyes_003'
+[2017.10.12-18.58.33:027][432]LogLinker: Can't find file '/Game/Resources/Characters/Human/Men/MBlab_human_eyes_003'
+[2017.10.12-18.58.33:027][432]LogMaterial:Warning: Material /Game/Resources/Characters/Human/Men/MBlab_human_eyes_003.MBlab_human_eyes_003 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.10.12-18.58.33:029][432]LogMaterial: Missing cached shader map for material MBlab_human_eyes_003, compiling. 
+[2017.10.12-18.58.33:072][432]LogMaterial: Missing cached shader map for material MBlab_human_eyes_003, compiling. 
+[2017.10.12-18.58.33:120][432]LogSlate: Took 0.000283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.12-18.58.33:125][432]LogLinker: Can't find file '/Game/Resources/Characters/Human/Men/MBlab_generic_003'
+[2017.10.12-18.58.33:125][432]LogLinker: Can't find file '/Game/Resources/Characters/Human/Men/MBlab_generic_003'
+[2017.10.12-18.58.33:125][432]LogMaterial:Warning: Material /Game/Resources/Characters/Human/Men/MBlab_generic_003.MBlab_generic_003 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.10.12-18.58.33:129][432]LogMaterial: Missing cached shader map for material MBlab_generic_003, compiling. 
+[2017.10.12-18.58.33:180][432]LogMaterial: Missing cached shader map for material MBlab_generic_003, compiling. 
+[2017.10.12-18.58.33:223][432]LogFbx: Triangulating skeletal mesh human_male_base01
+[2017.10.12-18.59.31:097][432]LogFbx:Warning: Bones digested - 91  Depth of hierarchy - 15
+[2017.10.12-18.59.41:463][432]LogSkeletalMesh: Section 0: 1474 vertices, 1 active bones
+[2017.10.12-18.59.41:465][432]LogSkeletalMesh: Section 1: 14972 vertices, 1 active bones
+[2017.10.12-18.59.41:473][432]LogSkeletalMesh: Section 2: 55990 vertices, 1 active bones
+[2017.10.12-18.59.41:495][432]LogSkeletalMesh: Section 3: 192849 vertices, 68 active bones
+[2017.10.12-18.59.41:497][432]LogSkeletalMesh: Section 4: 9220 vertices, 1 active bones
+[2017.10.12-18.59.41:499][432]LogSkeletalMesh: Section 5: 9794 vertices, 1 active bones
+[2017.10.12-18.59.41:499][432]LogSkeletalMesh: Section 6: 3896 vertices, 5 active bones
+[2017.10.12-19.00.04:867][432]LogSkeletalMesh: Section 0: Material=0, 2816 triangles
+[2017.10.12-19.00.04:867][432]LogSkeletalMesh: Section 1: Material=1, 17408 triangles
+[2017.10.12-19.00.04:867][432]LogSkeletalMesh: Section 2: Material=2, 109503 triangles
+[2017.10.12-19.00.04:867][432]LogSkeletalMesh: Section 3: Material=3, 372414 triangles
+[2017.10.12-19.00.04:867][432]LogSkeletalMesh: Section 4: Material=4, 18176 triangles
+[2017.10.12-19.00.04:867][432]LogSkeletalMesh: Section 5: Material=5, 19200 triangles
+[2017.10.12-19.00.04:867][432]LogSkeletalMesh: Section 6: Material=6, 6848 triangles
+[2017.10.12-19.00.05:040][432]LogLinker: Can't find file '/Game/Resources/Characters/Human/Men/human_Skeleton'
+[2017.10.12-19.00.05:040][432]LogLinker: Can't find file '/Game/Resources/Characters/Human/Men/human_Skeleton'
+[2017.10.12-19.00.05:051][432]LogLinker: Can't find file '/Game/Resources/Characters/Human/Men/human_PhysicsAsset'
+[2017.10.12-19.00.05:051][432]LogLinker: Can't find file '/Game/Resources/Characters/Human/Men/human_PhysicsAsset'
+[2017.10.12-19.00.05:201][432]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: SkeletalMeshComponent0
+[2017.10.12-19.00.05:388][432]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.12-19.00.05:388][432]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+toes_R_end  
+calf_twist_R_end  
+thigh_twist_R_end  
+toes_L_end  
+calf_twist_L_end  
+thigh_twist_L_end  
+thumb03_L_end  
+index03_L_end  
+middle03_L_end  
+ring03_L_end  
+pinky03_L_end  
+lowerarm_twist_L_end  
+upperarm_twist_L_end  
+thumb03_R_end  
+index03_R_end  
+middle03_R_end  
+ring03_R_end  
+pinky03_R_end  
+lowerarm_twist_R_end  
+upperarm_twist_R_end  
+head_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2017.10.12-19.00.56:007][614]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.12-19.00.56:021][614]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-19.00.56:021][614]PIE: New page: PIE session: NewMap (Oct 12, 2017, 11:00:56 PM)
+[2017.10.12-19.00.56:022][614]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.10.12-19.00.56:023][614]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001520s)
+[2017.10.12-19.00.56:024][614]LogAIModule: Creating AISystem for world NewMap
+[2017.10.12-19.00.56:024][614]LogPlayLevel: PIE: World Init took: (0.000553s)
+[2017.10.12-19.00.56:024][614]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.002224s)
+[2017.10.12-19.00.56:057][614]LogInit: XAudio2 using 'Głośniki (3 — KAVE XTD Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.10.12-19.00.56:083][614]LogInit: FAudioDevice initialized.
+[2017.10.12-19.00.56:128][614]LogLoad: Game class is 'GameModeBase'
+[2017.10.12-19.00.56:131][614]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.10.12-21.00.56
+[2017.10.12-19.00.56:131][614]LogWorld: Bringing up level for play took: 0.001018
+[2017.10.12-19.00.56:174][614]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.10.12-19.00.56:175][614]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 0.761
+[2017.10.12-19.01.11:733][445]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.10.12-19.01.12:899][578]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (human)
+[2017.10.12-19.01.16:783][ 23]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.12-19.01.16:794][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-19.01.16:795][ 23]PIE: New page: PIE session: NewMap (Oct 12, 2017, 11:01:16 PM)
+[2017.10.12-19.01.16:795][ 23]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.10.12-19.01.16:796][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001498s)
+[2017.10.12-19.01.16:797][ 23]LogAIModule: Creating AISystem for world NewMap
+[2017.10.12-19.01.16:797][ 23]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2017.10.12-19.01.16:797][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.002422s)
+[2017.10.12-19.01.16:851][ 23]LogInit: XAudio2 using 'Głośniki (3 — KAVE XTD Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.10.12-19.01.16:884][ 23]LogInit: FAudioDevice initialized.
+[2017.10.12-19.01.16:921][ 23]LogLoad: Game class is 'GameModeBase'
+[2017.10.12-19.01.16:924][ 23]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.10.12-21.01.16
+[2017.10.12-19.01.16:924][ 23]LogWorld: Bringing up level for play took: 0.001566
+[2017.10.12-19.01.16:926][ 23]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.489
+[2017.10.12-19.01.37:691][454]LogMaterial: Missing cached shader map for material MBlab_human_teeth_003, compiling. 
+[2017.10.12-19.01.37:768][454]LogMaterial: Missing cached shader map for material MBlab_human_teeth_003, compiling. 
+[2017.10.12-19.01.37:825][454]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.01.37:836][454]LogSlate: Took 0.000383 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.12-19.01.38:010][455]LogSlate: Took 0.000302 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.12-19.01.40:901][614]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.01.40:901][614]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.01.40:901][614]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.01.49:288][398]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.01.49:475][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.01.49:505][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.01.49:537][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.01.49:569][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.01.49:601][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.01.49:633][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.01.49:665][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.01.49:697][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.01.49:729][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.01.49:761][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.01.49:793][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.01.49:825][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.01.50:128][426]LogMaterial: Missing cached shader map for material MBlab_human_teeth_003, compiling. 
+[2017.10.12-19.01.50:158][426]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.01.52:776][572]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.01.52:776][572]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.01.52:776][572]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.01.58:624][110]LogMaterial: Missing cached shader map for material MBlab_human_teeth_003, compiling. 
+[2017.10.12-19.01.58:654][110]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.02.01:281][260]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.02.01:281][260]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.02.01:281][260]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.02.08:058][925]LogMaterialEditor: Saving and Compiling material MBlab_human_teeth_003
+[2017.10.12-19.02.08:625][925]LogMaterial: Missing cached shader map for material MBlab_human_teeth_003, compiling. 
+[2017.10.12-19.02.08:693][925]LogMaterial: Missing cached shader map for material MBlab_human_teeth_003, compiling. 
+[2017.10.12-19.02.08:748][925]LogMaterial: Missing cached shader map for material MBlab_human_teeth_003, compiling. 
+[2017.10.12-19.02.08:815][925]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MBlab_human_teeth_003, compiling. 
+[2017.10.12-19.02.10:761][925]TextureStreamingBuild:Display: Compiling optional shaders took 1.953 seconds.
+[2017.10.12-19.02.14:046][925]LogSavePackage: Save=11.14ms
+[2017.10.12-19.02.14:046][925]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/MBlab_human_teeth_003B52C31AA4D8FCF9902EFF182F8D1D824.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/MBlab_human_teeth_003.uasset'
+[2017.10.12-19.02.14:050][925]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/MBlab_human_teeth_003.uasset
+[2017.10.12-19.02.14:056][925]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.02.14:056][925]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.02.14:056][925]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.10.12-19.02.30:886][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/Characters/Human/Men/Man_Teeth" FILE="../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Teeth.uasset" SILENT=true
+[2017.10.12-19.02.30:899][883]LogSavePackage: Save=10.82ms
+[2017.10.12-19.02.30:899][883]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Man_Teeth29ADB833480707BBDD82E4942B617C94.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Teeth.uasset'
+[2017.10.12-19.02.30:902][883]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Teeth.uasset
+[2017.10.12-19.02.35:182][342]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.12-19.02.35:395][342]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.10.12-19.02.35:678][342]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.10.12-19.02.36:167][342]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2017.10.12-19.02.36:186][342]LogRenderer: Reallocating scene render targets to support 1208x1008 NumSamples 1 (Frame:1).
+[2017.10.12-19.02.49:674][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/Characters/Human/Men/Man_Skin" FILE="../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Skin.uasset" SILENT=true
+[2017.10.12-19.02.49:686][821]LogSavePackage: Save=10.77ms
+[2017.10.12-19.02.49:686][821]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Man_Skin9560907D4BD592B807F464ACEC28EDE3.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Skin.uasset'
+[2017.10.12-19.02.49:690][821]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Skin.uasset
+[2017.10.12-19.02.54:822][398]LogMaterial: Missing cached shader map for material Man_Skin, compiling. 
+[2017.10.12-19.02.54:889][398]LogMaterial: Missing cached shader map for material Man_Skin, compiling. 
+[2017.10.12-19.02.54:915][398]LogMaterial: Missing cached shader map for material Man_Skin, compiling. 
+[2017.10.12-19.02.54:963][398]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.02.58:034][742]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.02.58:034][742]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.02.58:034][742]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.03.25:553][910]LogMaterial: Missing cached shader map for material Man_Skin, compiling. 
+[2017.10.12-19.03.25:582][910]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.28:586][265]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.03.28:586][265]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.03.28:586][265]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.03.32:177][694]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.32:660][749]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.32:697][750]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.32:727][750]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.33:001][778]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.33:124][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.33:155][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.33:186][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.33:387][809]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.33:418][809]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.33:600][827]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.33:690][834]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.33:721][834]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.33:963][859]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.33:995][859]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.34:216][882]LogMaterial: Missing cached shader map for material Man_Skin, compiling. 
+[2017.10.12-19.03.34:248][882]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.35:064][974]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.35:180][984]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.35:211][984]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.35:242][984]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.35:274][984]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.35:307][984]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.35:421][994]LogMaterial: Missing cached shader map for material Man_Skin, compiling. 
+[2017.10.12-19.03.35:458][994]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.36:302][ 90]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.36:478][107]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.36:509][107]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.36:540][107]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.36:573][107]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.37:021][155]LogMaterial: Missing cached shader map for material Man_Skin, compiling. 
+[2017.10.12-19.03.37:059][155]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.37:601][216]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.37:751][230]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.37:784][230]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.37:815][230]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.37:846][230]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.38:425][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.38:456][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.38:488][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.38:521][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.38:553][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.38:795][317]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.38:840][318]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.38:991][332]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.39:055][336]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.39:087][336]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.39:120][336]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.39:151][336]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.39:262][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.39:294][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.39:656][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.39:689][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.39:721][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.39:754][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.39:786][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.39:818][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.39:850][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.39:882][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.39:914][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.39:947][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.39:978][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.40:009][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.40:041][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.40:073][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.40:106][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.40:139][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.40:182][384]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.03.40:182][384]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.03.40:182][384]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.03.41:542][546]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.41:572][546]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.41:604][546]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.41:636][546]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.41:668][546]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.41:699][546]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.41:731][546]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.41:762][546]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.41:794][546]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.41:845][547]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.41:956][556]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.41:987][556]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.42:045][559]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.43:419][720]LogMaterial: Missing cached shader map for material Man_Skin, compiling. 
+[2017.10.12-19.03.43:449][720]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.44:349][821]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.44:461][830]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.44:494][830]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.44:526][830]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.44:558][830]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.44:590][830]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.45:095][885]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.45:131][885]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.45:162][885]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.45:193][885]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.45:226][885]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.45:258][885]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.45:292][885]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.45:324][885]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.45:357][885]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.45:388][885]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.45:420][885]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.45:451][885]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.45:483][885]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.45:967][938]LogMaterial: Missing cached shader map for material Man_Skin, compiling. 
+[2017.10.12-19.03.46:002][938]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.46:574][  1]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.46:607][  1]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.46:639][  1]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.46:671][  1]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.46:702][  1]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.46:735][  1]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.46:766][  1]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.46:799][  1]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.47:414][ 69]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.47:447][ 69]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.47:477][ 69]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.47:510][ 69]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.47:542][ 69]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.47:574][ 69]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.47:607][ 69]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.47:639][ 69]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.47:784][ 82]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.47:817][ 82]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.47:848][ 82]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.47:881][ 82]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.47:912][ 82]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.48:541][151]LogMaterial: Missing cached shader map for material Man_Skin, compiling. 
+[2017.10.12-19.03.48:578][151]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.51:177][455]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.03.51:177][455]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.03.51:177][455]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.03.54:138][808]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.54:254][818]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.54:285][818]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.54:514][841]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.54:544][841]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.54:576][841]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.54:648][845]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.55:505][944]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.55:535][944]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.55:566][944]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.55:790][967]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.55:842][969]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.55:874][969]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.56:345][ 22]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.56:526][ 40]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.56:805][ 70]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.56:834][ 70]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.56:864][ 70]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.56:928][ 74]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.57:078][ 88]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.57:111][ 88]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.57:249][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.57:281][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.57:312][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.57:569][126]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.57:678][135]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.57:786][144]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.57:817][144]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.57:869][146]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.58:078][167]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.58:130][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.58:161][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.58:204][170]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.58:237][170]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.58:270][170]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.58:304][170]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.03.58:800][226]LogMaterial: Missing cached shader map for material Man_Skin, compiling. 
+[2017.10.12-19.03.58:829][226]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.01:509][535]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.04.01:509][535]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.04.01:509][535]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.04.02:362][637]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.02:557][657]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.02:587][657]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.02:651][661]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.02:750][669]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.02:789][670]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.02:847][673]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.02:880][673]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.02:933][675]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.02:967][675]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.02:999][675]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.03:029][675]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.03:404][716]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.03:515][726]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.03:809][758]LogMaterial: Missing cached shader map for material Man_Skin, compiling. 
+[2017.10.12-19.04.03:835][758]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.04:315][811]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.04:348][811]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.04:381][811]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.04:414][811]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.04:569][825]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.04:728][840]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.05:330][908]LogMaterial: Missing cached shader map for material Man_Skin, compiling. 
+[2017.10.12-19.04.05:371][908]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.08:159][235]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.04.08:159][235]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.04.08:159][235]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.04.09:209][361]LogMaterialEditor: Saving and Compiling material Man_Skin
+[2017.10.12-19.04.09:780][361]LogMaterial: Missing cached shader map for material Man_Skin, compiling. 
+[2017.10.12-19.04.09:832][361]LogMaterial: Missing cached shader map for material Man_Skin, compiling. 
+[2017.10.12-19.04.09:884][361]LogMaterial: Missing cached shader map for material Man_Skin, compiling. 
+[2017.10.12-19.04.09:950][361]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Man_Skin, compiling. 
+[2017.10.12-19.04.11:879][361]TextureStreamingBuild:Display: Compiling optional shaders took 1.936 seconds.
+[2017.10.12-19.04.15:140][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/Characters/Human/Men/Man_Skin" FILE="../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Skin.uasset" SILENT=true
+[2017.10.12-19.04.15:155][361]LogSavePackage: Save=10.87ms
+[2017.10.12-19.04.15:155][361]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Man_SkinF9888719443C45BAC9FD968F486FDBCF.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Skin.uasset'
+[2017.10.12-19.04.15:159][361]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Skin.uasset
+[2017.10.12-19.04.15:166][361]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.04.15:166][361]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.04.15:166][361]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.10.12-19.04.27:749][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/Characters/Human/Men/Man_Eyes" FILE="../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Eyes.uasset" SILENT=true
+[2017.10.12-19.04.27:762][787]LogSavePackage: Save=11.00ms
+[2017.10.12-19.04.27:762][787]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Man_Eyes11C5AA7C43D79EB62A63F08A5F9A7BEE.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Eyes.uasset'
+[2017.10.12-19.04.27:766][787]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Eyes.uasset
+[2017.10.12-19.04.29:510][968]LogMaterial: Missing cached shader map for material Man_Eyes, compiling. 
+[2017.10.12-19.04.29:578][968]LogMaterial: Missing cached shader map for material Man_Eyes, compiling. 
+[2017.10.12-19.04.29:605][968]LogMaterial: Missing cached shader map for material Man_Eyes, compiling. 
+[2017.10.12-19.04.29:658][968]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.32:230][251]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.04.32:230][251]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.04.32:230][251]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.04.35:519][643]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.35:561][645]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.35:592][645]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.35:624][645]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.35:657][645]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.35:689][645]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.35:721][645]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.35:752][645]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.35:783][645]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.35:816][645]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.35:848][645]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.35:882][645]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.36:484][713]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.36:514][713]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.36:544][713]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.36:575][713]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.36:608][713]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.37:609][829]LogMaterial: Missing cached shader map for material Man_Eyes, compiling. 
+[2017.10.12-19.04.37:639][829]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.40:319][142]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.04.40:319][142]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.04.40:319][142]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.04.45:893][809]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.45:923][809]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.45:953][809]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.45:985][809]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.46:017][809]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.46:051][809]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.46:085][809]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.46:116][809]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.46:147][809]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.46:178][809]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.46:211][809]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.46:242][809]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.46:274][809]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.46:306][809]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.46:338][809]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.46:367][809]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.46:398][809]LogMaterial: Missing cached shader map for material Man_Eyes, compiling. 
+[2017.10.12-19.04.46:445][809]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.04.49:161][103]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.04.49:161][103]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.04.49:161][103]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.04.52:748][532]LogMaterialEditor: Saving and Compiling material Man_Eyes
+[2017.10.12-19.04.53:317][532]LogMaterial: Missing cached shader map for material Man_Eyes, compiling. 
+[2017.10.12-19.04.53:367][532]LogMaterial: Missing cached shader map for material Man_Eyes, compiling. 
+[2017.10.12-19.04.53:414][532]LogMaterial: Missing cached shader map for material Man_Eyes, compiling. 
+[2017.10.12-19.04.53:484][532]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Man_Eyes, compiling. 
+[2017.10.12-19.04.55:459][532]TextureStreamingBuild:Display: Compiling optional shaders took 1.984 seconds.
+[2017.10.12-19.04.58:894][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/Characters/Human/Men/Man_Eyes" FILE="../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Eyes.uasset" SILENT=true
+[2017.10.12-19.04.58:910][532]LogSavePackage: Save=11.65ms
+[2017.10.12-19.04.58:910][532]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Man_Eyes9435FE7246357564FB37AAB23E543B4A.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Eyes.uasset'
+[2017.10.12-19.04.58:914][532]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Eyes.uasset
+[2017.10.12-19.04.58:920][532]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.04.58:920][532]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.04.58:920][532]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.10.12-19.05.47:540][150]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.05.47:608][150]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.05.47:634][150]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.05.47:683][150]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.05.50:795][493]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.05.50:795][493]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.05.50:795][493]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.06.02:786][914]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.06.05:438][218]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.06.05:438][218]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.06.05:438][218]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.06.07:110][417]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.06.08:579][587]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.06.08:621][587]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.06.09:851][720]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.06.12:570][ 33]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.06.12:570][ 33]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.06.12:570][ 33]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.06.16:927][544]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.06.19:594][848]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.06.19:594][848]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.06.19:594][848]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.06.20:762][986]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.06.23:379][283]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.06.23:379][283]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.06.23:379][283]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.06.42:163][492]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.06.42:188][492]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.12-19.06.44:864][801]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.06.44:864][801]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.06.44:864][801]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.06.45:675][898]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.06.45:708][898]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.12-19.06.48:354][207]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.06.48:354][207]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.06.48:354][207]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.07.01:264][752]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.07.03:880][ 50]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.10.12-19.07.03:880][ 50]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.07.03:880][ 50]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.07.52:386][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Autosaves/Game/NewMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.10.12-19.07.52:423][719]LogSavePackage: Save=31.61ms
+[2017.10.12-19.07.52:423][719]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/NewMap_Auto1734E320B4C7681AAF040669C8FD4C062.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Autosaves/Game/NewMap_Auto1.umap'
+[2017.10.12-19.07.52:424][719]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Autosaves/Game/NewMap_Auto1.umap
+[2017.10.12-19.07.52:426][719]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.068
+[2017.10.12-19.07.52:426][719]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.068
+[2017.10.12-19.07.52:439][719]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Resources/Characters/Human/Men/human] ([1] browsable assets)...
+[2017.10.12-19.07.52:463][719]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Resources/Characters/Human/Men/human.human]
+[2017.10.12-19.07.52:463][719]OBJ SavePackage: Finished generating thumbnails for package [/Game/Resources/Characters/Human/Men/human]
+[2017.10.12-19.07.53:512][719]LogSavePackage: Save=1047.40ms
+[2017.10.12-19.07.53:512][719]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/human_Auto17A209AB142DBFA48D18903A58E4482B5.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Autosaves/Game/Resources/Characters/Human/Men/human_Auto1.uasset'
+[2017.10.12-19.07.53:514][719]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Autosaves/Game/Resources/Characters/Human/Men/human_Auto1.uasset
+[2017.10.12-19.07.53:515][719]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Resources/Characters/Human/Men/MBlab_pupil_003] ([1] browsable assets)...
+[2017.10.12-19.07.53:532][719]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Resources/Characters/Human/Men/MBlab_pupil_003.MBlab_pupil_003]
+[2017.10.12-19.07.53:532][719]OBJ SavePackage: Finished generating thumbnails for package [/Game/Resources/Characters/Human/Men/MBlab_pupil_003]
+[2017.10.12-19.07.53:545][719]LogSavePackage: Save=10.80ms
+[2017.10.12-19.07.53:545][719]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/MBlab_pupil_003_Auto1D194B94943C895140422AFA3369E4B08.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Autosaves/Game/Resources/Characters/Human/Men/MBlab_pupil_003_Auto1.uasset'
+[2017.10.12-19.07.53:546][719]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Autosaves/Game/Resources/Characters/Human/Men/MBlab_pupil_003_Auto1.uasset
+[2017.10.12-19.07.53:547][719]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Resources/Characters/Human/Men/MBlab_fur_003] ([1] browsable assets)...
+[2017.10.12-19.07.53:565][719]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Resources/Characters/Human/Men/MBlab_fur_003.MBlab_fur_003]
+[2017.10.12-19.07.53:565][719]OBJ SavePackage: Finished generating thumbnails for package [/Game/Resources/Characters/Human/Men/MBlab_fur_003]
+[2017.10.12-19.07.53:579][719]LogSavePackage: Save=11.83ms
+[2017.10.12-19.07.53:579][719]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/MBlab_fur_003_Auto15A7281414B69745915A6F589DBA270D4.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Autosaves/Game/Resources/Characters/Human/Men/MBlab_fur_003_Auto1.uasset'
+[2017.10.12-19.07.53:581][719]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Autosaves/Game/Resources/Characters/Human/Men/MBlab_fur_003_Auto1.uasset
+[2017.10.12-19.07.53:582][719]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Resources/Characters/Human/Men/MBlab_cornea_003] ([1] browsable assets)...
+[2017.10.12-19.07.53:599][719]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Resources/Characters/Human/Men/MBlab_cornea_003.MBlab_cornea_003]
+[2017.10.12-19.07.53:599][719]OBJ SavePackage: Finished generating thumbnails for package [/Game/Resources/Characters/Human/Men/MBlab_cornea_003]
+[2017.10.12-19.07.53:613][719]LogSavePackage: Save=12.24ms
+[2017.10.12-19.07.53:614][719]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/MBlab_cornea_003_Auto146EA9B594CACCB48A3E7E28ADFF850B2.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Autosaves/Game/Resources/Characters/Human/Men/MBlab_cornea_003_Auto1.uasset'
+[2017.10.12-19.07.53:615][719]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Autosaves/Game/Resources/Characters/Human/Men/MBlab_cornea_003_Auto1.uasset
+[2017.10.12-19.07.53:616][719]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Resources/Characters/Human/Men/MBlab_generic_003] ([1] browsable assets)...
+[2017.10.12-19.07.53:636][719]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Resources/Characters/Human/Men/MBlab_generic_003.MBlab_generic_003]
+[2017.10.12-19.07.53:636][719]OBJ SavePackage: Finished generating thumbnails for package [/Game/Resources/Characters/Human/Men/MBlab_generic_003]
+[2017.10.12-19.07.53:648][719]LogSavePackage: Save=10.14ms
+[2017.10.12-19.07.53:648][719]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/MBlab_generic_003_Auto1C29664D74C86FC8337FF8784AA3B61B7.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Autosaves/Game/Resources/Characters/Human/Men/MBlab_generic_003_Auto1.uasset'
+[2017.10.12-19.07.53:650][719]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Autosaves/Game/Resources/Characters/Human/Men/MBlab_generic_003_Auto1.uasset
+[2017.10.12-19.07.53:651][719]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Resources/Characters/Human/Men/human_Skeleton] ([1] browsable assets)...
+[2017.10.12-19.07.53:651][719]OBJ SavePackage: Finished generating thumbnails for package [/Game/Resources/Characters/Human/Men/human_Skeleton]
+[2017.10.12-19.07.53:657][719]LogSavePackage: Save=3.61ms
+[2017.10.12-19.07.53:657][719]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/human_Skeleton_Auto101E0AF98403107B945F8EEBF205925EF.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Autosaves/Game/Resources/Characters/Human/Men/human_Skeleton_Auto1.uasset'
+[2017.10.12-19.07.53:658][719]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Autosaves/Game/Resources/Characters/Human/Men/human_Skeleton_Auto1.uasset
+[2017.10.12-19.07.53:659][719]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Resources/Characters/Human/Men/human_PhysicsAsset] ([1] browsable assets)...
+[2017.10.12-19.07.53:659][719]OBJ SavePackage: Finished generating thumbnails for package [/Game/Resources/Characters/Human/Men/human_PhysicsAsset]
+[2017.10.12-19.07.53:664][719]LogSavePackage: Save=3.44ms
+[2017.10.12-19.07.53:664][719]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/human_PhysicsAsset_Auto130D74809441E8F168A690EA8A1639924.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Autosaves/Game/Resources/Characters/Human/Men/human_PhysicsAsset_Auto1.uasset'
+[2017.10.12-19.07.53:666][719]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Autosaves/Game/Resources/Characters/Human/Men/human_PhysicsAsset_Auto1.uasset
+[2017.10.12-19.07.53:666][719]LogFileHelpers: Auto-saving content packages took 1.228
+[2017.10.12-19.08.04:471][847]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.08.06:885][127]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.08.08:080][262]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.08.08:123][262]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.08.09:518][423]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.08.09:564][423]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.12-19.08.12:469][766]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.10.12-19.08.12:469][766]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.08.12:469][766]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.08.14:818][ 48]LogMaterialEditor: Saving and Compiling material MBlab_cornea_003
+[2017.10.12-19.08.15:386][ 48]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.08.15:435][ 48]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.08.15:483][ 48]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.08.15:548][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MBlab_cornea_003, compiling. 
+[2017.10.12-19.08.17:561][ 48]TextureStreamingBuild:Display: Compiling optional shaders took 2.020 seconds.
+[2017.10.12-19.08.20:849][ 48]LogSavePackage: Save=13.85ms
+[2017.10.12-19.08.20:849][ 48]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/MBlab_cornea_003C9D189DB4507B7CA9FFBEC8795A9A536.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/MBlab_cornea_003.uasset'
+[2017.10.12-19.08.20:852][ 48]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/MBlab_cornea_003.uasset
+[2017.10.12-19.08.20:859][ 48]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.10.12-19.08.20:859][ 48]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.08.20:859][ 48]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.10.12-19.08.28:851][972]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.12-19.08.28:858][972]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-19.08.28:858][972]PIE: New page: PIE session: NewMap (Oct 12, 2017, 11:08:28 PM)
+[2017.10.12-19.08.28:858][972]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.10.12-19.08.28:860][972]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001790s)
+[2017.10.12-19.08.28:860][972]LogAIModule: Creating AISystem for world NewMap
+[2017.10.12-19.08.28:860][972]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2017.10.12-19.08.28:860][972]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.002605s)
+[2017.10.12-19.08.28:896][972]LogInit: XAudio2 using 'Głośniki (3 — KAVE XTD Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.10.12-19.08.28:918][972]LogInit: FAudioDevice initialized.
+[2017.10.12-19.08.28:947][972]LogLoad: Game class is 'GameModeBase'
+[2017.10.12-19.08.28:949][972]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.10.12-21.08.28
+[2017.10.12-19.08.28:949][972]LogWorld: Bringing up level for play took: 0.000993
+[2017.10.12-19.08.28:950][972]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.464
+[2017.10.12-19.09.58:735][627]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.10.00:879][871]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.10.02:213][ 21]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.10.02:253][ 21]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.05:068][345]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.10.05:068][345]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.10.05:068][345]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.10.17:683][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.17:712][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.17:743][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.17:773][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.17:805][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.17:837][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.17:870][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.17:903][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.17:934][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.17:965][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.17:998][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:030][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:062][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:093][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:124][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:156][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:189][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:221][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:253][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:285][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:317][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:349][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:380][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:411][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:445][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:478][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:511][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:543][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:575][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:606][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:639][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:673][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:706][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:739][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:771][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:803][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:835][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:868][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:901][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:932][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:964][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.18:995][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.19:027][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.19:059][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.19:092][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.19:125][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.19:158][855]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.10.19:197][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.21:852][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.21:885][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.21:917][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.21:950][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.21:982][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:015][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:047][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:080][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:113][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:145][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:177][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:210][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:243][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:276][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:307][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:340][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:373][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:405][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:436][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:469][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:502][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:536][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:568][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:602][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:634][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:666][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:699][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:733][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:766][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:798][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:831][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:862][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:896][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:929][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:962][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.22:995][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.23:028][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.23:060][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.23:092][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.23:125][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.23:159][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.23:190][158]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.10.23:237][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.24:216][262]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.24:801][319]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.24:939][330]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.10.24:985][330]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.28:254][700]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.10.28:254][700]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.10.28:254][700]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.10.32:838][249]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.10.32:869][249]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.35:038][504]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.10.35:079][504]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.10.37:766][807]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.10.37:766][807]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.10.37:766][807]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.11.27:230][965]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.11.27:272][965]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.11.32:628][571]MaterialEditorStats: Info Base pass shader: 46 instructions
+[2017.10.12-19.11.32:628][571]MaterialEditorStats: Info Vertex shader: 121 instructions
+[2017.10.12-19.11.32:628][571]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.10.12-19.12.04:727][360]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.12.06:118][518]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.12.09:236][879]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.12.14:277][451]MaterialEditorStats: Info Base pass shader: 50 instructions
+[2017.10.12-19.12.14:277][451]MaterialEditorStats: Info Vertex shader: 121 instructions
+[2017.10.12-19.12.14:277][451]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.10.12-19.12.16:293][692]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.12.16:336][694]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.12.16:367][694]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.12.16:398][694]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.12.16:430][694]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.12.16:462][694]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.12.16:502][694]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.12.16:533][694]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.12.16:864][729]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.12.16:900][729]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.12.21:625][273]MaterialEditorStats: Info Base pass shader: 50 instructions
+[2017.10.12-19.12.21:625][273]MaterialEditorStats: Info Vertex shader: 121 instructions
+[2017.10.12-19.12.21:625][273]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.10.12-19.12.23:183][460]LogMaterialEditor: Saving and Compiling material MBlab_cornea_003
+[2017.10.12-19.12.23:753][460]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.12.23:816][460]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.12.23:870][460]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.12.23:943][460]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MBlab_cornea_003, compiling. 
+[2017.10.12-19.12.27:612][460]TextureStreamingBuild:Display: Compiling optional shaders took 3.677 seconds.
+[2017.10.12-19.12.32:754][460]LogSavePackage: Save=11.31ms
+[2017.10.12-19.12.32:754][460]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/MBlab_cornea_003DA242BDF42DC1DBCAB18B192E9134407.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/MBlab_cornea_003.uasset'
+[2017.10.12-19.12.32:758][460]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/MBlab_cornea_003.uasset
+[2017.10.12-19.13.22:978][203]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.13.27:005][680]LogMaterialEditor: Saving and Compiling material MBlab_cornea_003
+[2017.10.12-19.13.27:830][680]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.13.27:919][680]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.13.27:976][680]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.13.28:051][680]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MBlab_cornea_003, compiling. 
+[2017.10.12-19.13.31:803][680]TextureStreamingBuild:Display: Compiling optional shaders took 3.760 seconds.
+[2017.10.12-19.13.37:030][680]LogSavePackage: Save=10.69ms
+[2017.10.12-19.13.37:030][680]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/MBlab_cornea_003C6A514C24D0EB55BA2F187AD38B8A599.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/MBlab_cornea_003.uasset'
+[2017.10.12-19.13.37:034][680]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/MBlab_cornea_003.uasset
+[2017.10.12-19.13.37:040][680]MaterialEditorStats: Info Base pass shader: 50 instructions
+[2017.10.12-19.13.37:040][680]MaterialEditorStats: Info Vertex shader: 121 instructions
+[2017.10.12-19.13.37:041][680]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.10.12-19.13.45:360][652]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.13.47:044][849]LogMaterialEditor: Saving and Compiling material MBlab_cornea_003
+[2017.10.12-19.13.47:868][849]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.13.47:964][849]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.13.48:022][849]LogMaterial: Missing cached shader map for material MBlab_cornea_003, compiling. 
+[2017.10.12-19.13.48:098][849]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MBlab_cornea_003, compiling. 
+[2017.10.12-19.13.51:963][849]TextureStreamingBuild:Display: Compiling optional shaders took 3.873 seconds.
+[2017.10.12-19.13.57:078][849]LogSavePackage: Save=10.67ms
+[2017.10.12-19.13.57:078][849]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/MBlab_cornea_003541C758F41EFBDC9E0BF6B895AED91A6.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/MBlab_cornea_003.uasset'
+[2017.10.12-19.13.57:082][849]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/MBlab_cornea_003.uasset
+[2017.10.12-19.13.57:089][849]MaterialEditorStats: Info Base pass shader: 50 instructions
+[2017.10.12-19.13.57:089][849]MaterialEditorStats: Info Vertex shader: 121 instructions
+[2017.10.12-19.13.57:089][849]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.10.12-19.14.04:313][695]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.12-19.14.04:321][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-19.14.04:321][695]PIE: New page: PIE session: NewMap (Oct 12, 2017, 11:14:04 PM)
+[2017.10.12-19.14.04:321][695]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.10.12-19.14.04:323][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001744s)
+[2017.10.12-19.14.04:323][695]LogAIModule: Creating AISystem for world NewMap
+[2017.10.12-19.14.04:324][695]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2017.10.12-19.14.04:324][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.002554s)
+[2017.10.12-19.14.04:358][695]LogInit: XAudio2 using 'Głośniki (3 — KAVE XTD Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.10.12-19.14.04:378][695]LogInit: FAudioDevice initialized.
+[2017.10.12-19.14.04:413][695]LogLoad: Game class is 'GameModeBase'
+[2017.10.12-19.14.04:414][695]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.10.12-21.14.04
+[2017.10.12-19.14.04:415][695]LogWorld: Bringing up level for play took: 0.001127
+[2017.10.12-19.14.04:416][695]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 1.001
+[2017.10.12-19.15.18:420][219]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.18:498][225]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.18:529][225]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.18:560][225]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.18:591][225]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.19:432][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.19:461][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.19:491][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.19:523][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.19:848][354]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.19:878][354]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.19:909][354]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.19:941][354]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.19:973][354]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.20:840][453]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.20:869][453]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.20:901][453]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.20:932][453]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.20:964][453]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.20:996][453]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.21:028][453]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.21:229][472]LogMaterial: Missing cached shader map for material Man_Eyes, compiling. 
+[2017.10.12-19.15.21:270][472]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.21:668][514]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.21:787][524]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.21:819][524]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.21:859][524]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.21:892][524]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.22:303][568]LogMaterial: Missing cached shader map for material Man_Eyes, compiling. 
+[2017.10.12-19.15.22:337][568]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.23:166][662]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.23:226][665]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.23:259][665]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.23:291][665]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.23:322][665]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.23:353][665]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.23:385][665]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.23:419][665]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.23:582][680]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.23:615][680]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.23:647][680]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.23:679][680]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.23:713][680]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.24:392][753]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.24:457][757]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.24:490][757]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.24:522][757]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.24:555][757]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.24:950][800]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.15.24:950][800]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.15.24:950][800]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.15.25:436][858]LogMaterial: Missing cached shader map for material Man_Eyes, compiling. 
+[2017.10.12-19.15.25:466][858]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.15.28:088][161]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.15.28:088][161]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.15.28:088][161]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.15.28:896][258]LogMaterialEditor: Saving and Compiling material Man_Eyes
+[2017.10.12-19.15.29:468][258]LogMaterial: Missing cached shader map for material Man_Eyes, compiling. 
+[2017.10.12-19.15.29:517][258]LogMaterial: Missing cached shader map for material Man_Eyes, compiling. 
+[2017.10.12-19.15.29:566][258]LogMaterial: Missing cached shader map for material Man_Eyes, compiling. 
+[2017.10.12-19.15.29:630][258]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Man_Eyes, compiling. 
+[2017.10.12-19.15.31:601][258]TextureStreamingBuild:Display: Compiling optional shaders took 1.980 seconds.
+[2017.10.12-19.15.34:895][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/Characters/Human/Men/Man_Eyes" FILE="../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Eyes.uasset" SILENT=true
+[2017.10.12-19.15.34:912][258]LogSavePackage: Save=11.70ms
+[2017.10.12-19.15.34:912][258]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Man_Eyes6AE2D883480D5D830C4884BD8C70704A.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Eyes.uasset'
+[2017.10.12-19.15.34:915][258]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Eyes.uasset
+[2017.10.12-19.15.34:922][258]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.15.34:923][258]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.15.34:923][258]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.10.12-19.16.02:061][397]LogSavePackage: Save=10.08ms
+[2017.10.12-19.16.02:061][397]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Man_Eye-Color3A8FB1D94AFDFFD1596CB38E21C49563.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Eye-Color.uasset'
+[2017.10.12-19.16.02:065][397]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Eye-Color.uasset
+[2017.10.12-19.16.25:238][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/Characters/Human/Men/Man_Eye-In" FILE="../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Eye-In.uasset" SILENT=true
+[2017.10.12-19.16.25:250][ 73]LogSavePackage: Save=10.18ms
+[2017.10.12-19.16.25:250][ 73]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Man_Eye-In0083412649F127D7C499478E254E489C.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Eye-In.uasset'
+[2017.10.12-19.16.25:253][ 73]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Eye-In.uasset
+[2017.10.12-19.16.34:966][169]LogSavePackage: Save=10.56ms
+[2017.10.12-19.16.34:966][169]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Man_Eye-OutD695AAA5404925D17EA1F8B70E909F12.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Eye-Out.uasset'
+[2017.10.12-19.16.34:970][169]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Eye-Out.uasset
+[2017.10.12-19.16.40:993][831]LogSavePackage: Save=12.44ms
+[2017.10.12-19.16.40:993][831]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Man_Eye-ColorAF8795CE47A1126CEF98D89543AC30F1.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Eye-Color.uasset'
+[2017.10.12-19.16.40:996][831]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Eye-Color.uasset
+[2017.10.12-19.16.48:346][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/Characters/Human/Men/Man_Pants" FILE="../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Pants.uasset" SILENT=true
+[2017.10.12-19.16.48:360][660]LogSavePackage: Save=12.37ms
+[2017.10.12-19.16.48:360][660]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Man_PantsAC15D8C24492AD45863C0AB11D43EDF7.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Pants.uasset'
+[2017.10.12-19.16.48:363][660]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Pants.uasset
+[2017.10.12-19.16.59:153][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/Characters/Human/Men/human" FILE="../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/human.uasset" SILENT=true
+[2017.10.12-19.16.59:854][889]LogSavePackage: Save=698.99ms
+[2017.10.12-19.16.59:854][889]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/humanA772488E43ECA8A15AAD04AFA3860E70.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/human.uasset'
+[2017.10.12-19.16.59:857][889]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/human.uasset
+[2017.10.12-19.17.03:400][289]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2017.10.12-19.17.03:419][289]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2017.10.12-19.18.16:769][818]LogMaterial: Missing cached shader map for material Man_Pants, compiling. 
+[2017.10.12-19.18.16:841][818]LogMaterial: Missing cached shader map for material Man_Pants, compiling. 
+[2017.10.12-19.18.16:869][818]LogMaterial: Missing cached shader map for material Man_Pants, compiling. 
+[2017.10.12-19.18.16:919][818]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.18.20:073][168]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.18.20:073][168]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.18.20:073][168]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.18.22:175][418]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.18.22:265][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.18.22:297][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.18.22:329][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.18.22:362][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.18.22:393][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.18.22:828][472]LogMaterial: Missing cached shader map for material Man_Pants, compiling. 
+[2017.10.12-19.18.22:859][472]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.18.24:002][598]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.18.24:246][623]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.18.24:833][686]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.18.24:865][686]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.18.24:898][686]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.18.24:930][686]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.18.24:961][686]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.18.25:335][726]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.18.25:367][726]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.18.25:399][726]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.18.25:430][726]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.18.25:462][726]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.18.25:502][727]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.18.25:502][727]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.18.25:502][727]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.18.25:884][772]LogMaterial: Missing cached shader map for material Man_Pants, compiling. 
+[2017.10.12-19.18.25:914][772]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.12-19.18.28:583][ 82]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.18.28:583][ 82]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.18.28:583][ 82]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.10.12-19.18.32:600][564]LogMaterialEditor: Saving and Compiling material Man_Pants
+[2017.10.12-19.18.33:167][564]LogMaterial: Missing cached shader map for material Man_Pants, compiling. 
+[2017.10.12-19.18.33:218][564]LogMaterial: Missing cached shader map for material Man_Pants, compiling. 
+[2017.10.12-19.18.33:267][564]LogMaterial: Missing cached shader map for material Man_Pants, compiling. 
+[2017.10.12-19.18.33:332][564]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Man_Pants, compiling. 
+[2017.10.12-19.18.35:335][564]TextureStreamingBuild:Display: Compiling optional shaders took 2.011 seconds.
+[2017.10.12-19.18.38:594][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/Characters/Human/Men/Man_Pants" FILE="../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Pants.uasset" SILENT=true
+[2017.10.12-19.18.38:611][564]LogSavePackage: Save=12.07ms
+[2017.10.12-19.18.38:611][564]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/Man_PantsD232B01D431C8EBA04C83498307D3EB2.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Pants.uasset'
+[2017.10.12-19.18.38:615][564]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/Man_Pants.uasset
+[2017.10.12-19.18.38:622][564]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.10.12-19.18.38:622][564]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.10.12-19.18.38:622][564]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.10.12-19.18.46:296][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/Characters/Human/Men/human" FILE="../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/human.uasset" SILENT=true
+[2017.10.12-19.18.46:987][475]LogSavePackage: Save=645.59ms
+[2017.10.12-19.18.46:987][475]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/humanD857D3644C54AF92D2A2DCA118600684.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/human.uasset'
+[2017.10.12-19.18.46:995][475]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/human.uasset
+[2017.10.12-19.18.56:966][627]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../Unreal Engine 4/Games/LifeTheGame/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.12-19.18.57:009][627]LogSavePackage: Save=29.50ms
+[2017.10.12-19.18.57:009][627]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/NewMapE0D954D447F64FB2E4C2E6BCE240AA81.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/NewMap.umap'
+[2017.10.12-19.18.57:012][627]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/NewMap.umap
+[2017.10.12-19.19.26:318][  4]LogAIModule: Creating AISystem for world DevMap
+[2017.10.12-19.19.26:322][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/Maps/Dev/DevMap" FILE="../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Maps/Dev/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.12-19.19.26:367][  4]LogSavePackage: Save=30.27ms
+[2017.10.12-19.19.26:367][  4]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/DevMap8D5E701A43F752C8E60067BC7ADFC1CC.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Maps/Dev/DevMap.umap'
+[2017.10.12-19.19.26:371][  4]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Maps/Dev/DevMap.umap
+[2017.10.12-19.19.26:377][  4]LogFileHelpers: Saving map 'DevMap' took 0.240
+[2017.10.12-19.19.26:378][  4]Cmd: MAP LOAD FILE="../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Maps/Dev/DevMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.12-19.19.26:387][  4]LightingResults: New page: Lighting Build
+[2017.10.12-19.19.26:388][  4]LoadErrors: New page: Loading map: DevMap.umap
+[2017.10.12-19.19.26:392][  4]MapCheck: New page: Map Check
+[2017.10.12-19.19.26:392][  4]LightingResults: New page: Lighting Build
+[2017.10.12-19.19.26:408][  4]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.12-19.19.26:432][  4]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.12-19.19.26:498][  4]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.99ms to complete.
+[2017.10.12-19.19.26:498][  4]LogFileHelpers: Loading map 'DevMap' took 0.121
+[2017.10.12-19.19.28:835][270]LogAIModule: Creating AISystem for world NewMap
+[2017.10.12-19.19.56:751][364]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.12-19.19.56:758][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-19.19.56:758][364]PIE: New page: PIE session: DevMap (Oct 12, 2017, 11:19:56 PM)
+[2017.10.12-19.19.56:758][364]LogPlayLevel: Creating play world package: /Game/Resources/Maps/Dev/UEDPIE_0_DevMap
+[2017.10.12-19.19.56:760][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001857s)
+[2017.10.12-19.19.56:761][364]LogAIModule: Creating AISystem for world DevMap
+[2017.10.12-19.19.56:761][364]LogPlayLevel: PIE: World Init took: (0.000669s)
+[2017.10.12-19.19.56:761][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/Dev/DevMap.DevMap to /Game/Resources/Maps/Dev/UEDPIE_0_DevMap.DevMap (0.002694s)
+[2017.10.12-19.19.56:795][364]LogInit: XAudio2 using 'Głośniki (3 — KAVE XTD Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.10.12-19.19.56:818][364]LogInit: FAudioDevice initialized.
+[2017.10.12-19.19.56:850][364]LogLoad: Game class is 'GameModeBase'
+[2017.10.12-19.19.56:852][364]LogWorld: Bringing World /Game/Resources/Maps/Dev/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2017.10.12-21.19.56
+[2017.10.12-19.19.56:852][364]LogWorld: Bringing up level for play took: 0.001410
+[2017.10.12-19.19.56:853][364]PIE: Info Play in editor start time for /Game/Resources/Maps/Dev/UEDPIE_0_DevMap -0.562
+[2017.10.12-19.20.10:545][991]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.12-19.20.10:555][991]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-19.20.10:555][991]PIE: New page: PIE session: DevMap (Oct 12, 2017, 11:20:10 PM)
+[2017.10.12-19.20.10:555][991]LogPlayLevel: Creating play world package: /Game/Resources/Maps/Dev/UEDPIE_0_DevMap
+[2017.10.12-19.20.10:557][991]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001636s)
+[2017.10.12-19.20.10:557][991]LogAIModule: Creating AISystem for world DevMap
+[2017.10.12-19.20.10:558][991]LogPlayLevel: PIE: World Init took: (0.000519s)
+[2017.10.12-19.20.10:558][991]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/Dev/DevMap.DevMap to /Game/Resources/Maps/Dev/UEDPIE_0_DevMap.DevMap (0.002310s)
+[2017.10.12-19.20.10:592][991]LogInit: XAudio2 using 'Głośniki (3 — KAVE XTD Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.10.12-19.20.10:611][991]LogInit: FAudioDevice initialized.
+[2017.10.12-19.20.10:640][991]LogLoad: Game class is 'GameModeBase'
+[2017.10.12-19.20.10:642][991]LogWorld: Bringing World /Game/Resources/Maps/Dev/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2017.10.12-21.20.10
+[2017.10.12-19.20.10:642][991]LogWorld: Bringing up level for play took: 0.001563
+[2017.10.12-19.20.10:643][991]PIE: Info Play in editor start time for /Game/Resources/Maps/Dev/UEDPIE_0_DevMap -0.771
+[2017.10.12-19.20.39:813][336]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.10.12-19.20.39:853][336]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.10.12-19.21.47:340][769]LogSavePackage: Save=3.22ms
+[2017.10.12-19.21.47:340][769]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/human_Skeleton5FBF22E541C940F0D2E947A96B8934F9.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/human_Skeleton.uasset'
+[2017.10.12-19.21.47:343][769]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/human_Skeleton.uasset
+[2017.10.12-19.21.54:519][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/Maps/Dev/DevMap" FILE="../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Maps/Dev/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.12-19.21.54:568][565]LogSavePackage: Save=33.31ms
+[2017.10.12-19.21.54:568][565]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/DevMapA4DB771943357A80B840F9AF1E72FD37.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Maps/Dev/DevMap.umap'
+[2017.10.12-19.21.54:572][565]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Maps/Dev/DevMap.umap
+[2017.10.12-19.21.58:896][ 55]LogSavePackage: Save=21.88ms
+[2017.10.12-19.21.58:897][ 55]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/MBlab_generic_0030F6072DD4A31B8DBDCB8E387F42B73D7.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/MBlab_generic_003.uasset'
+[2017.10.12-19.21.58:900][ 55]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/MBlab_generic_003.uasset
+[2017.10.12-19.21.58:908][ 55]LogSavePackage: Save=3.95ms
+[2017.10.12-19.21.58:908][ 55]LogSavePackage: Moving '../../../../../Unreal Engine 4/Games/LifeTheGame/Saved/human_PhysicsAsset1EE446514FA613188879BB8124EEEBFD.tmp' to '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/human_PhysicsAsset.uasset'
+[2017.10.12-19.21.58:911][ 55]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Engine 4/Games/LifeTheGame/Content/Resources/Characters/Human/Men/human_PhysicsAsset.uasset
+[2017.10.12-19.22.10:502][265]Cmd: QUIT_EDITOR
+[2017.10.12-19.22.10:875][265]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.12-19.22.10:886][265]LogExit: Preparing to exit.
+[2017.10.12-19.22.11:290][265]LogDirectoryWatcher: A directory notification for 'J:/Unreal Engine 4/Games/LifeTheGame/Content/' was aborted.
+[2017.10.12-19.22.11:305][265]LogExit: Editor shut down
+[2017.10.12-19.22.11:309][265]LogExit: Transaction tracking system shut down
+[2017.10.12-19.22.11:376][265]LogObj: Freed 0b from 0 cluster array pools.
+[2017.10.12-19.22.11:376][265]LogExit: Object subsystem successfully closed.
+[2017.10.12-19.22.11:399][265]LogD3D11RHI: Shutdown
+[2017.10.12-19.22.11:399][265]LogD3D11RHI: CleanupD3DDevice
+[2017.10.12-19.22.11:476][265]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.12-19.22.11:491][265]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (534)
+[2017.10.12-19.22.11:491][265]LogModuleManager: Shutting down and abandoning module SkeletonEditor (532)
+[2017.10.12-19.22.11:491][265]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (530)
+[2017.10.12-19.22.11:491][265]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2017.10.12-19.22.11:491][265]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2017.10.12-19.22.11:491][265]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.10.12-19.22.11:491][265]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.10.12-19.22.11:491][265]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.10.12-19.22.11:491][265]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.10.12-19.22.11:491][265]LogDirectoryWatcher: A directory notification for 'J:/Nowy folder/UE_4.16/FeaturePacks/' was aborted.
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.10.12-19.22.11:492][265]LogDirectoryWatcher: A directory notification for 'J:/Unreal Engine 4/Games/LifeTheGame/Content/Collections/' was aborted.
+[2017.10.12-19.22.11:492][265]LogDirectoryWatcher: A directory notification for 'J:/Unreal Engine 4/Games/LifeTheGame/Content/Developers/piotr/Collections/' was aborted.
+[2017.10.12-19.22.11:492][265]LogDirectoryWatcher: A directory notification for 'J:/Unreal Engine 4/Games/LifeTheGame/Saved/Collections/' was aborted.
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.10.12-19.22.11:492][265]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.10.12-19.22.12:395][265]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.10.12-19.22.12:395][265]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.10.12-19.22.12:395][265]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.10.12-19.22.12:395][265]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.10.12-19.22.12:395][265]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.10.12-19.22.12:395][265]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.10.12-19.22.12:395][265]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.10.12-19.22.12:395][265]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.10.12-19.22.12:395][265]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.10.12-19.22.12:395][265]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.10.12-19.22.12:395][265]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.10.12-19.22.12:395][265]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.10.12-19.22.12:395][265]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.10.12-19.22.12:395][265]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.10.12-19.22.12:395][265]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.10.12-19.22.12:395][265]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.10.12-19.22.12:395][265]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.10.12-19.22.12:395][265]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.10.12-19.22.12:395][265]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.10.12-19.22.12:395][265]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.10.12-19.22.12:395][265]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.10.12-19.22.12:395][265]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.10.12-19.22.12:395][265]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.10.12-19.22.12:395][265]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.10.12-19.22.12:448][265]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.10.12-19.22.12:448][265]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.10.12-19.22.12:448][265]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.10.12-19.22.12:448][265]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.10.12-19.22.12:448][265]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.10.12-19.22.12:448][265]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.10.12-19.22.12:448][265]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.10.12-19.22.12:448][265]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.10.12-19.22.12:448][265]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.10.12-19.22.12:448][265]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.10.12-19.22.12:449][265]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.10.12-19.22.12:450][265]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.10.12-19.22.12:450][265]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.10.12-19.22.12:450][265]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.10.12-19.22.12:450][265]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.10.12-19.22.12:450][265]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.10.12-19.22.12:450][265]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.10.12-19.22.12:450][265]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.10.12-19.22.12:450][265]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.10.12-19.22.12:450][265]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.10.12-19.22.12:450][265]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.10.12-19.22.12:450][265]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.10.12-19.22.12:450][265]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.10.12-19.22.12:450][265]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.10.12-19.22.12:450][265]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.10.12-19.22.12:450][265]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.10.12-19.22.12:450][265]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.10.12-19.22.12:450][265]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.10.12-19.22.12:450][265]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.10.12-19.22.12:450][265]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.10.12-19.22.12:674][265]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.10.12-19.22.12:674][265]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.10.12-19.22.12:674][265]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.10.12-19.22.12:674][265]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.10.12-19.22.12:674][265]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.10.12-19.22.12:674][265]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.10.12-19.22.12:674][265]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.10.12-19.22.12:674][265]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.10.12-19.22.12:674][265]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.10.12-19.22.12:674][265]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.10.12-19.22.12:674][265]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.10.12-19.22.12:674][265]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.10.12-19.22.12:674][265]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.10.12-19.22.12:674][265]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.10.12-19.22.12:674][265]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.10.12-19.22.12:675][265]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.10.12-19.22.12:675][265]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.10.12-19.22.12:675][265]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.10.12-19.22.12:675][265]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.10.12-19.22.12:675][265]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.10.12-19.22.12:675][265]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.10.12-19.22.12:675][265]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.10.12-19.22.12:675][265]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.10.12-19.22.12:675][265]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.10.12-19.22.12:675][265]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.10.12-19.22.12:675][265]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.10.12-19.22.12:675][265]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.10.12-19.22.12:675][265]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.10.12-19.22.12:675][265]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.10.12-19.22.12:675][265]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.10.12-19.22.12:675][265]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.10.12-19.22.12:675][265]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.10.12-19.22.12:675][265]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.10.12-19.22.12:675][265]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.10.12-19.22.12:675][265]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.10.12-19.22.12:675][265]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.10.12-19.22.12:675][265]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.10.12-19.22.12:675][265]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.10.12-19.22.12:675][265]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.10.12-19.22.12:676][265]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.10.12-19.22.12:676][265]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.10.12-19.22.12:676][265]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.10.12-19.22.12:676][265]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.10.12-19.22.12:676][265]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.10.12-19.22.12:676][265]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.10.12-19.22.12:777][265]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.10.12-19.22.12:877][265]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.10.12-19.22.12:877][265]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.10.12-19.22.12:877][265]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.10.12-19.22.12:877][265]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.10.12-19.22.12:877][265]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.10.12-19.22.12:877][265]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.10.12-19.22.12:877][265]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.10.12-19.22.12:877][265]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.10.12-19.22.12:877][265]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.10.12-19.22.12:877][265]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.10.12-19.22.12:878][265]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.10.12-19.22.12:878][265]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.10.12-19.22.12:878][265]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.10.12-19.22.12:878][265]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.10.12-19.22.12:878][265]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.10.12-19.22.12:878][265]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.10.12-19.22.12:878][265]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.10.12-19.22.12:878][265]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.10.12-19.22.12:878][265]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.10.12-19.22.12:878][265]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.10.12-19.22.12:878][265]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.10.12-19.22.12:878][265]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.10.12-19.22.12:878][265]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.10.12-19.22.12:878][265]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.10.12-19.22.12:878][265]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.10.12-19.22.12:878][265]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.10.12-19.22.12:878][265]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.10.12-19.22.12:878][265]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.10.12-19.22.12:878][265]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.10.12-19.22.12:880][265]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.10.12-19.22.12:880][265]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.10.12-19.22.12:880][265]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.10.12-19.22.12:880][265]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.10.12-19.22.12:880][265]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.10.12-19.22.12:880][265]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.10.12-19.22.13:049][265]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.12-19.22.13:049][265]LogDirectoryWatcher: A directory notification for '../../../../../Unreal Engine 4/Games/LifeTheGame/Content/' was aborted.
+[2017.10.12-19.22.13:049][265]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.12-19.22.13:049][265]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.10.12-19.22.13:051][265]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.10.12-19.22.13:052][265]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.10.12-19.22.13:052][265]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.10.12-19.22.13:052][265]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.10.12-19.22.13:052][265]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.10.12-19.22.13:052][265]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.10.12-19.22.13:052][265]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.10.12-19.22.13:052][265]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.10.12-19.22.13:052][265]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.12-19.22.13:129][265]LogDerivedDataCache: Shutdown
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.12-19.22.13:129][265]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.12-19.22.13:130][265]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.12-19.22.13:130][265]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.12-19.22.13:130][265]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.12-19.22.13:130][265]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.12-19.22.13:130][265]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.12-19.22.13:130][265]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.12-19.22.13:130][265]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.12-19.22.13:130][265]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.12-19.22.13:130][265]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.12-19.22.13:130][265]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.12-19.22.13:130][265]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.12-19.22.13:130][265]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.12-19.22.13:130][265]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.10.12-19.22.13:130][265]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.10.12-19.22.13:130][265]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.10.12-19.22.13:130][265]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.12-19.22.13:130][265]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.12-19.22.13:130][265]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.12-19.22.13:130][265]LogOnline:Display: Unloading online subsystem: NULL
+[2017.10.12-19.22.13:130][265]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.12-19.22.13:130][265]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.12-19.22.13:130][265]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.12-19.22.13:130][265]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B14BF3453-4F2B-04C3-7DB6-22AEEAF3B745%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=c822fbc64c7bd53291180ba614cd4d1a%7C4a14eb4f086c4915b159d8240491d5f6%7C9a2884e8-f97a-42a8-a349-42410aa4a0e4&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.12-19.22.13:159][265]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.12-19.22.13:160][265]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.10.12-19.22.13:160][265]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.10.12-19.22.13:160][265]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.10.12-19.22.13:160][265]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.10.12-19.22.13:160][265]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.10.12-19.22.13:161][265]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.10.12-19.22.13:161][265]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.10.12-19.22.13:161][265]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.10.12-19.22.13:161][265]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.10.12-19.22.13:161][265]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.10.12-19.22.13:161][265]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.10.12-19.22.13:161][265]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.10.12-19.22.13:161][265]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.10.12-19.22.13:161][265]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.10.12-19.22.13:161][265]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.10.12-19.22.13:161][265]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.12-19.22.13:161][265]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.12-19.22.13:161][265]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.12-19.22.13:164][265]LogExit: Exiting.
+[2017.10.12-19.22.13:174][265]Log file closed, 10/12/17 21:22:13
